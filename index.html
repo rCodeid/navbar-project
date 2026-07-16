@@ -3,39 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dropdwon</title>
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Navbar</title>
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <nav class="navbar">
-            <ul class="nav-links">
-                <li class="nav-link">
-                    <a href="#">Home</a>
-                </li>
-                <li class="nav-link service">
-                    <a href="#">Service
-                        <span class="material-icons">
-                            <i class="fa-solid fa-chevron-down "></i>
+            <div class="logo">
+                rCodeid
+            </div>
 
-                        </span>
+            <ul class="link">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                 
+
+
+                <li><a href="#">Services
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+                    <ul class="drop-menu">
+                    <li><a href="#">
+                        <i class="fas fa-desktop"></i>
+                        <span>Web Design</span>
                     </a>
-                    <ul class="drop-down">
-                        <li>service 1</li>
-                        <li>service 2</li>
-                        <li>service 3</li>
-                        <li>service 4</li>
+                    </li>
+
+                    <li> 
+                        <a href="#">   
+                           <i class="fas fa-mobile"></i>
+                           <span> App Development</span> 
+                    </a>
+                    </li>
+
+                    <li><a href="#">
+                        <i class="fas fa-chart-line"></i>
+                        <span>Digital Marketing</span>
+                    </a>
+                    </li>
                     </ul>
                 </li>
-                <li class="nav-link">
-                    <a href="#">About</a>
-                </li>
-                <li class="nav-link">
-                    <a href="#">Contact</a>
-                </li>
 
-            </ul>
+                
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+                
+           </ul>
         </nav>
     </div>
 </body>
